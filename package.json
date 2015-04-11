@@ -1,0 +1,39 @@
+{
+  "name": "jquery-multiobserve",
+  "version": "0.0.1",
+  "description": "Execute callback when event(s) happen on all elements of jQuery selector.",
+  "main": "..",
+  "scripts": {
+    "test": "grunt qunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tleen/jquery-multiobserve.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugin",
+    "observe",
+    "multiple",
+    "events"
+  ],  
+  "author": {
+    "name" : "Tom Leen",
+    "email" : "tl@thomasleen.com",
+    "url" : "http://www.thomasleen.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tleen/jquery-multiobserve/issues"
+  },
+  "devDependencies" : {
+    "grunt" : "0.4.5",
+    "grunt-contrib-qunit" : "0.7.0",
+    "grunt-contrib-jshint" : "0.11.0",
+    "jquery" : "2.1.3",
+    "should" : "5.2.0"
+  },
+  "dependencies" : {
+
+  }
+}
